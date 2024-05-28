@@ -19,8 +19,4 @@ public class DepthFirstSearch<T> extends Search<T> {
         }
     }
 
-    @Override
-    public void search() {
-        // DFS is executed in the constructor
-    }
 }
