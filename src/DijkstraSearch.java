@@ -35,9 +35,4 @@ public class DijkstraSearch<T> extends Search<T> {
     public double getDistance(Vertex<T> target) {
         return distances.getOrDefault(target, Double.POSITIVE_INFINITY);
     }
-
-    @Override
-    public void search() {
-        // Dijkstra is executed in the constructor
-    }
 }
