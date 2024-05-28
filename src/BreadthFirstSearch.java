@@ -25,9 +25,4 @@ public class BreadthFirstSearch<T> extends Search<T> {
             }
         }
     }
-
-    @Override
-    public void search() {
-        // BFS is executed in the constructor
-    }
 }
